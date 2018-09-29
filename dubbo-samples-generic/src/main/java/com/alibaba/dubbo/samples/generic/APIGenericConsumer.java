@@ -53,6 +53,6 @@ public class APIGenericConsumer {
         reference2.setApplication(application);
 
         HelloService helloService = (HelloService) reference2.get();
-        System.out.println(helloService.hello("community"));
+        System.out.println(helloService.hello("community-------111111111111"));
     }
 }
